@@ -107,3 +107,26 @@ def crear_ventana():
     lbl3.place(relx=0.2, rely=0.5, anchor='center', relwidth=0.3, relheight=0.1)
     txt3 = Entry(vent, bg="#FFF")
     txt3.place(relx=0.6, rely=0.5, anchor="center", relwidth=0.3, relheight=0.1)
+    btn_suma = Button(vent, text="Sumar", command=suma, bg="#d3d3d3")
+    btn_suma.place(x=50, y=300, width=150, height=30)
+    
+    btn_resta = Button(vent, text="Restar", command=resta, bg="#d3d3d3")
+    btn_resta.place(x=220, y=300, width=150, height=30)
+    
+    btn_multiplicacion = Button(vent, text="Multiplicación", command=multiplicacion, bg="#d3d3d3")
+    btn_multiplicacion.place(x=50, y=350, width=150, height=30)
+
+    btn_division = Button(vent, text="División", command=division, bg="#d3d3d3")
+    btn_division.place(x=220, y=350, width=150, height=30)
+
+    btn_valor_absoluto = Button(vent, text="Valor Absoluto", command=valor_absoluto, bg="#d3d3d3")
+    btn_valor_absoluto.place(x=560, y=300, width=150, height=30)
+    
+    btn_mcm = Button(vent, text="MCM", command=mcm, bg="#d3d3d3")
+    btn_mcm.place(x=390, y=300, width=150, height=30)
+    
+    btn_mcd = Button(vent, text="MCD", command=mcd, bg="#d3d3d3")
+    btn_mcd.place(x=560, y=350, width=150, height=30)
+
+    btn_salir = Button(vent, text="Salir", command=salir, bg="#ff7f7f")
+    btn_salir.place(x=390, y=350, width=150, height=30)
