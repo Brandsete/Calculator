@@ -9,3 +9,5 @@ def crear_ventana():
     vent.title("Calculadora Simple")
     vent.geometry("750x400")
     vent.configure(bg=bg_color)
+    def formato_resultado(r):
+        return int(r) if r % 1 == 0 else r
