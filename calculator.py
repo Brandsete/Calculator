@@ -81,3 +81,13 @@ def crear_ventana():
         except ValueError:
             txt3.delete(0, 'end')
             txt3.insert(0, "Error")
+    def mcd():
+        n1 = txt1.get()
+        n2 = txt2.get()
+        try:
+            r = math.gcd(int(n1), int(n2))
+            txt3.delete(0, 'end')
+            txt3.insert(0, r)
+        except ValueError:
+            txt3.delete(0, 'end')
+            txt3.insert(0, "Error")
