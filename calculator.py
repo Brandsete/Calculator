@@ -44,3 +44,17 @@ def crear_ventana():
         except ValueError:
             txt3.delete(0, 'end')
             txt3.insert(0, "Error")
+    def division():
+        n1 = txt1.get()
+        n2 = txt2.get()
+        try:
+            r = float(n1) / float(n2)
+            r = formato_resultado(r)
+            txt3.delete(0, 'end')
+            txt3.insert(0, r)
+        except ValueError:
+            txt3.delete(0, 'end')
+            txt3.insert(0, "Error")
+        except ZeroDivisionError:
+            txt3.delete(0, 'end')
+            txt3.insert(0, "Error")
