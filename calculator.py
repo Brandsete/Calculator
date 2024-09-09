@@ -60,3 +60,11 @@ def crear_ventana():
             txt3.insert(0, "Error")
     def valor_absoluto():
         n1 = txt1.get()
+        try:
+            r = abs(float(n1))
+            r = formato_resultado(r)
+            txt3.delete(0, 'end')
+            txt3.insert(0, r)
+        except ValueError:
+            txt3.delete(0, 'end')
+            txt3.insert(0, "Error")
