@@ -130,3 +130,8 @@ def crear_ventana():
 
     btn_salir = Button(vent, text="Salir", command=salir, bg="#ff7f7f")
     btn_salir.place(x=390, y=350, width=150, height=30)
+
+    return vent
+
+vent = crear_ventana()
+vent.mainloop()
