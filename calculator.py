@@ -68,3 +68,16 @@ def crear_ventana():
         except ValueError:
             txt3.delete(0, 'end')
             txt3.insert(0, "Error")
+    def mcm():
+        def calcular_mcm(a, b):
+            return abs(a * b) // math.gcd(a, b)
+
+        n1 = txt1.get()
+        n2 = txt2.get()
+        try:
+            r = calcular_mcm(int(n1), int(n2))
+            txt3.delete(0, 'end')
+            txt3.insert(0, r)
+        except ValueError:
+            txt3.delete(0, 'end')
+            txt3.insert(0, "Error")
