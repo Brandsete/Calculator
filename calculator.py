@@ -58,3 +58,5 @@ def crear_ventana():
         except ZeroDivisionError:
             txt3.delete(0, 'end')
             txt3.insert(0, "Error")
+    def valor_absoluto():
+        n1 = txt1.get()
