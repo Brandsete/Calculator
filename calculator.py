@@ -93,3 +93,17 @@ def crear_ventana():
             txt3.insert(0, "Error")
     def salir():
         vent.destroy()
+    lbl1 = Label(vent, text="Número 1:", bg=bg_color, fg=fg_color, font=font)
+    lbl1.place(relx=0.2, rely=0.1, anchor='center', relwidth=0.3, relheight=0.1)
+    txt1 = Entry(vent, bg="#fff")
+    txt1.place(relx=0.6, rely=0.1, anchor="center", relwidth=0.3, relheight=0.1)
+    
+    lbl2 = Label(vent, text="Número 2:", bg=bg_color, fg=fg_color, font=font)
+    lbl2.place(relx=0.2, rely=0.3, anchor='center', relwidth=0.3, relheight=0.1)
+    txt2 = Entry(vent, bg="#fff")
+    txt2.place(relx=0.6, rely=0.3, anchor="center", relwidth=0.3, relheight=0.1)
+
+    lbl3 = Label(vent, text="Resultado:", bg=bg_color, fg=fg_color, font=font)
+    lbl3.place(relx=0.2, rely=0.5, anchor='center', relwidth=0.3, relheight=0.1)
+    txt3 = Entry(vent, bg="#FFF")
+    txt3.place(relx=0.6, rely=0.5, anchor="center", relwidth=0.3, relheight=0.1)
