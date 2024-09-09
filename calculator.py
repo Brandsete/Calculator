@@ -91,3 +91,5 @@ def crear_ventana():
         except ValueError:
             txt3.delete(0, 'end')
             txt3.insert(0, "Error")
+    def salir():
+        vent.destroy()
