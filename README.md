@@ -5,3 +5,6 @@
 2. ![Instalación](#instalación)
 3. ![Herramientas utilizadas](#Herramientasutilizadas)
 4. ![Uso](#Uso)
+5. ![Requisitos](#Requisitos)
+6. ![Licencia](#Licencia)
+7. ![Autor](#Autor)
