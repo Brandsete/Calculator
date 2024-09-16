@@ -8,3 +8,11 @@
 5. ![Requisitos](#Requisitos)
 6. ![Licencia](#Licencia)
 7. ![Autor](#Autor)
+
+## descripción
+Es una calculadora simple a la cual se le pueden ingresar dos numero via teclado los cuales se pueden operar con diversas acciones, estas son suma, resta, multiplicación, división, minimo común multiplo, máximo común divisor, ademas de tener un boton que cumple con la función de cerrar la calculadora y un label que muestra el resultado de la operación matematica elegida por el usuario.
+
+## Instalación 
+1. Asegurate de tener instalado la versión de **python 3.11** o una superior en tu sistema.
+2. Asegurate de tener instalado **Git** en tu ordenador.
+3. 
